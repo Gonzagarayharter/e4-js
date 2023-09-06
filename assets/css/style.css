@@ -252,10 +252,6 @@ footer span {
     font-size: 25px;
   }
 
-  .pokemon-card {
-    width: 80%;
-  }
-
   .card-container {
     width: 90%;
     display: flex;
