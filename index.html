@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poke Api</title>
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/e80cf68666.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png"
+        alt="pokemon"
+        class="pokemon-logo"
+      />
+      <div class="container">
+        <div class="search-box">
+          <form id="form">
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <input
+              type="number"
+              name="pokemon"
+              autocomplete="off"
+              placeholder="Buscar Pokémon"
+              class="search-input"
+            />
+          </form>
+        </div>
+        <div class="pokemon-msg-card">
+          <p class="search-msg">Ingrese un número...</p>
+          <section class="card-container">
+            
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Hecho en <span>NUCBA</span></p>
+    </footer>
+    <script src="./assets/js/request.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
