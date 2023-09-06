@@ -252,6 +252,13 @@ footer span {
     font-size: 25px;
   }
 
+  .card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .pokemon-img img{
     width: 200px;
   }
