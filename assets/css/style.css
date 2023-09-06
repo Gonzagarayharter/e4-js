@@ -238,13 +238,37 @@ footer span {
   text-align: center;
 }
 
-@media (max-width: 750px) {
-  form input {
-    padding: 20px 2px;
+@media (max-width: 576px) {
+  .pokemon-logo {
+    width: 100%;
   }
 
-  input::placeholder {
-    font-size: 1.2rem;
+  #form button,
+  .search-input {
+    height: 50px;
+  }
+
+  .search-input {
+    font-size: 25px;
+  }
+
+  .pokemon-card {
+    width: 80%;
+  }
+
+  .card-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pokemon-img img{
+    width: 200px;
+  }
+
+  .pokemon-title h1{
+    font-size: 20px;
   }
 
 }
